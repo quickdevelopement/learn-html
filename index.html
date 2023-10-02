@@ -9,54 +9,57 @@
       th,
       td {
         border: 1px solid brown;
+        border-collapse: collapse;
       }
       th,
       td {
-        padding: 15px;
-      }
-
-      table {
-        border-spacing: 30px;
+        padding: 10px;
       }
     </style>
   </head>
   <body>
     <table>
-      <tr>
-        <th>SL No:</th>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Phone</th>
-        <th>Age</th>
-      </tr>
-      <tr>
-        <td>01</td>
-        <td>Atiqul Islam</td>
-        <td>atiq@gmail.com</td>
-        <td>012345678</td>
-        <td>26</td>
-      </tr>
-      <tr>
-        <td>02</td>
-        <td>Sadiqul Islam</td>
-        <td>sadek@gmail.com</td>
-        <td>0123456708</td>
-        <td>36</td>
-      </tr>
-      <tr>
-        <td>03</td>
-        <td>Assadul Islam</td>
-        <td>assad@gmail.com</td>
-        <td>01234445678</td>
-        <td>23</td>
-      </tr>
-      <tr>
-        <td>04</td>
-        <td>Ajgor Ahmed</td>
-        <td>ajgor@gmail.com</td>
-        <td>0121345678</td>
-        <td>26</td>
-      </tr>
+      <caption>
+        Product Calculation Table
+      </caption>
+      <thead>
+        <tr>
+          <th>SL No</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Weight</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td>Total Cost</td>
+          <td colspan="4" style="text-align: right">1629</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>Rice</td>
+          <td>75</td>
+          <td>5</td>
+          <td>375</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Fish</td>
+          <td>450</td>
+          <td>2</td>
+          <td>900</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Oil</td>
+          <td>177</td>
+          <td>2</td>
+          <td>354</td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
