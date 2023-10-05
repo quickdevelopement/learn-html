@@ -4,62 +4,27 @@
     <title>HTML Table</title>
     <!-- <link rel="stylesheet" href="style.css" /> -->
     <link rel="icon" type="images/x-icon" href="images/icon-32.png" />
-    <style>
-      table,
-      th,
-      td {
-        border: 1px solid brown;
-        border-collapse: collapse;
-      }
-      th,
-      td {
-        padding: 10px;
-      }
-    </style>
   </head>
   <body>
-    <table>
-      <caption>
-        Product Calculation Table
-      </caption>
-      <thead>
-        <tr>
-          <th>SL No</th>
-          <th>Name</th>
-          <th>Price</th>
-          <th>Weight</th>
-          <th>Price</th>
-        </tr>
-      </thead>
-      <tfoot>
-        <tr>
-          <td>Total Cost</td>
-          <td colspan="4" style="text-align: right">1629</td>
-        </tr>
-      </tfoot>
-      <tbody>
-        <tr>
-          <td>01</td>
-          <td>Rice</td>
-          <td>75</td>
-          <td>5</td>
-          <td>375</td>
-        </tr>
-        <tr>
-          <td>02</td>
-          <td>Fish</td>
-          <td>450</td>
-          <td>2</td>
-          <td>900</td>
-        </tr>
-        <tr>
-          <td>03</td>
-          <td>Oil</td>
-          <td>177</td>
-          <td>2</td>
-          <td>354</td>
-        </tr>
-      </tbody>
-    </table>
+    <h2>HTML List</h2>
+    <ul>
+      <li>One</li>
+      <li>
+        Two
+        <ul>
+          <li>1st</li>
+          <li>2nd</li>
+          <li>
+            3rd
+            <ul style="list-style-type: disc">
+              <li>Ab</li>
+              <li>Bc</li>
+              <li>Cd</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Three</li>
+    </ul>
   </body>
 </html>
