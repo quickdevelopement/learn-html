@@ -4,14 +4,114 @@
     <title>HTML Forms || Web design for beginners</title>
     <!-- <link rel="stylesheet" href="style.css" /> -->
     <link rel="icon" type="images/x-icon" href="images/icon-32.png" />
+    <style>
+      input {
+        margin-bottom: 10px;
+      }
+    </style>
   </head>
   <body>
-    <h2>HTML Form</h2>
-    <form>
+    <!-- <h2>HTML Form</h2>
+    <form action="" method="post" autocomplete target="_blank">
       <h3>Login</h3>
-      Email: <input /> <br />
-      Password: <input /> <br />
+      <label>Email</label> <br />
+      <input /> <br />
+      <label>Password</label><br />
+      <input /> <br />
       <input type="submit" />
+    </form> -->
+
+    <h2>Bio Form</h2>
+    <form action="">
+      <label for="name">Full Name</label> <br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Type your name"
+      /><br />
+
+      <label for="email">Email Address</label> <br />
+      <input type="email" id="email" name="email" value="ariful@gmail.com" />
+      <br />
+
+      <label for="pass">Password</label> <br />
+      <input
+        type="password"
+        id="pass"
+        name="password"
+        placeholder="1234596"
+      /><br />
+
+      <label for="phone">Phone</label><br />
+      <input
+        type="tel"
+        id="phone"
+        name="phone_number"
+        placeholder="01XXXXXXX"
+      /><br />
+      <label>Gender</label>
+      <input type="radio" name="gender" /> Male
+      <input type="radio" name="gender" /> Female
+      <input type="radio" name="gender" /> other
+      <br />
+
+      <label for="">Skill</label>
+      <input type="checkbox" /> HTML <input type="checkbox" /> CSS
+      <input type="checkbox" /> Javascript
+
+      <br />
+      <label for="dob">DOB</label>
+      <input type="date" name="date_of_barth" id="dob" />
+      <br />
+      <label for="">Local Time</label>
+      <input type="datetime-local" />
+      <br />
+
+      <label for="">Time</label> <br />
+      <input type="time" />
+      <br />
+
+      <label for="">Month</label>
+      <input type="month" />
+
+      <br />
+      <label for="">Week</label>
+      <input type="week" />
+
+      <br />
+      <label for="">Your Favorite Color</label>
+      <input type="color" />
+
+      <br />
+      <label for="">Upload a file</label>
+      <input type="file" />
+      <br />
+      <label for="">Budget</label>
+      <input type="range" />
+
+      <br />
+      <label for="">Facebook</label>
+      <input type="url" />
+
+      <br />
+      <label for="">Age</label>
+      <input type="number" min="18" max="22" />
+
+      <br />
+      <label for="">Product title</label>
+      <input type="search" placeholder="Input any product title" />
+      <input type="submit" />
+      <br />
+      <input
+        type="button"
+        value="Terms and condition"
+        onclick="alert('we are ready')"
+      />
+      <br />
+
+      <input type="submit" value="Send" />
+      <input type="reset" />
     </form>
   </body>
 </html>
