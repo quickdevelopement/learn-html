@@ -26,16 +26,26 @@
     </style>
   </head>
   <body>
-   <h2>This is our Homeland</h2>
-   <p class="color" id="bt">Bangladesh is a beautiful country</p>
-   <p id="bay" >Bangladesh is a bay of bangle</p>
-   <p class="color font">Bangladesh flag color is red and green</p>
+    <p id="date"></p>
+    <button onclick="document.getElementById('date').innerText= Date()">Show Date</button>
+    <img src="images/mobile.png" alt="mobile" id="img">
+    <button onclick="changeimg();" >Change Image</button>
+   <h2>This is our <span id="land">Homeland</span></h2>
+   <p id="beauty">Bangladesh is a beautiful country</p>
+   <p>Bangladesh is a bay of bangle</p>
+   <p>Bangladesh flag color is red and green</p>
    <p>Bangladesh is one of the developing country in the world</p>
-    <iframe
-      src="https://ariful-islam66.web.app/" title="Ariful Islam Portfolio Website"
-      width="300px" height="300px"
-    ></iframe>
-   <p class="color bg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quae!</p>
+   
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quae!</p>
    <p>Lorem ipsum dolor sit amet.</p>
+
+   <script>
+    document.getElementById('land').innerHTML = "Motherland";
+    document.getElementById('land').style.color="red";
+    document.getElementById('beauty').style.fontSize="25px"
+   function changeimg(){
+    document.getElementById('img').src="images/laptop.png"
+    }
+   </script>
   </body>
 </html>
