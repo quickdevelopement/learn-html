@@ -2,50 +2,26 @@
 <html lang="en-US">
   <head>
     <title>Class & Id Elements || Web design for beginners</title>
-    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="/css/style.css" />
     <link rel="icon" type="images/x-icon" href="images/icon-32.png" />
-    <style>
-     .color{
-      color: red;
-      
-     }
-     .font{
-      font-size: 25px;
-      font-family: arial;
-     }
 
-     .bg{
-      background-color: aqua;
-     }
-     #bt{
-      font-weight: bold;
-     }
-     #bay{
-      text-shadow: 1px 2px 3px black;
-     }
-    </style>
+  
   </head>
   <body>
     <p id="date"></p>
     <button onclick="document.getElementById('date').innerText= Date()">Show Date</button>
     <img src="images/mobile.png" alt="mobile" id="img">
     <button onclick="changeimg();" >Change Image</button>
+    <img src="https://ariful-islam66.web.app/static/media/02.c9ffda0f.png" alt="">
    <h2>This is our <span id="land">Homeland</span></h2>
    <p id="beauty">Bangladesh is a beautiful country</p>
    <p>Bangladesh is a bay of bangle</p>
-   <p>Bangladesh flag color is red and green</p>
+   <p class="font color">Bangladesh flag color is red and green</p>
    <p>Bangladesh is one of the developing country in the world</p>
    
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quae!</p>
    <p>Lorem ipsum dolor sit amet.</p>
 
-   <script>
-    document.getElementById('land').innerHTML = "Motherland";
-    document.getElementById('land').style.color="red";
-    document.getElementById('beauty').style.fontSize="25px"
-   function changeimg(){
-    document.getElementById('img').src="images/laptop.png"
-    }
-   </script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
