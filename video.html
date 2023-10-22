@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Video Controls</title>
+    
 </head>
 <body>
     <h3>Bondur Video dakh</h3>
-    <video controls width="320" height="240" autoplay muted>
+    <video id="htmlVideo" width="420" >
         <source src="/mdeia/video/html-vidoe.webm" type="video/webm"/>
         Your browser does not support the video tag
     </video>
-</body>
+    <br>
+    <button onclick="playPause()">Play/Pause</button>
+    <button onclick="big()">Big</button>
+    <button onclick="small()">Small</button>
+    <button onclick="normal()">Normal</button>
+    <br>
+    
+    
+    <script src="/js/main.js" type="text/javascript"></script>
 </html>

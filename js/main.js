@@ -1,6 +1,19 @@
-document.getElementById('land').innerHTML = "Motherland";
-document.getElementById('land').style.color="red";
-document.getElementById('beauty').style.fontSize="25px"
-function changeimg(){
-document.getElementById('img').src="images/laptop.png"
+var myHtmlVideo = document.getElementById("htmlVideo");
+
+function playPause(){
+    if(myHtmlVideo.paused){
+        myHtmlVideo.play();
+    }else{
+        myHtmlVideo.pause();
+    }
+}
+function big(){
+    myHtmlVideo.width = 560;
+}
+
+function small(){
+    myHtmlVideo.width = 320
+}
+function normal(){
+    myHtmlVideo.width = 420;
 }
