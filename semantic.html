@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semantic Elements</title>
     <style>
+        *{
+            margin: 0;padding: 0;
+        }
         header{
             background-color: powderblue;
         }
@@ -19,6 +22,16 @@
         nav{
             background-color: aqua;
             text-align: center;
+        }
+        nav a{
+            text-decoration: none;
+            background-color: rgb(220, 255, 196);
+            
+        }
+
+        .service div{
+            width: 30%;
+            display: inline-block;
         }
     </style>
 </head>
@@ -38,5 +51,40 @@
         <a href="#">About</a>
         <a href="#">Contact</a>
     </nav>
+    <section class="hero" style="height: 300px;">
+        <img src="/images/nature.jpg" height="100%" width="100%">
+    </section>
+    <main>
+        <section>
+            <h2 style="text-align: center;">Service</h2>
+            <div class="service">
+                <div>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore reiciendis suscipit dolore aut ea minus hic voluptate architecto amet quae quis animi numquam, illo quam nihil nostrum beatae quibusdam in!</p>
+                </div>
+                <div>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore reiciendis suscipit dolore aut ea minus hic voluptate architecto amet quae quis animi numquam, illo quam nihil nostrum beatae quibusdam in!</p>
+                </div>
+                <div><h3>Digital Marketing</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore reiciendis suscipit dolore aut ea minus hic voluptate architecto amet quae quis animi numquam, illo quam nihil nostrum beatae quibusdam in!</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <article>
+                <h2>This is article Header</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, facilis? Reprehenderit assumenda saepe ipsam mollitia magnam voluptas aliquam maxime sapiente iste animi. Molestias accusantium porro possimus ab vero, iure repellat.</p>
+            </article>
+            <article>
+                <h2>This is article Header</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, facilis? Reprehenderit assumenda saepe ipsam mollitia magnam voluptas aliquam maxime sapiente iste animi. Molestias accusantium porro possimus ab vero, iure repellat.</p>
+            </article>
+            <article>
+                <h2>This is article Header</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, facilis? Reprehenderit assumenda saepe ipsam mollitia magnam voluptas aliquam maxime sapiente iste animi. Molestias accusantium porro possimus ab vero, iure repellat.</p>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
